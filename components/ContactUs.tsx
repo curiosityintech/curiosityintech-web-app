@@ -42,37 +42,6 @@ export const ContactUs = () => {
     console.log('submitting');
 
     console.log(form.current);
-
-    const emailJsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-
-    const emailJsTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-
-    const emailJsPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
-
-    if (
-      emailJsServiceId &&
-      emailJsTemplateId &&
-      emailJsPublicKey &&
-      form.current
-    ) {
-      emailjs
-        .sendForm(
-          emailJsServiceId,
-          emailJsTemplateId,
-          form.current,
-          emailJsPublicKey
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            setAlert(successAlert);
-          },
-          (error) => {
-            console.log(error.text);
-            setAlert(errorAlert);
-          }
-        );
-    }
   };
 
   return (
