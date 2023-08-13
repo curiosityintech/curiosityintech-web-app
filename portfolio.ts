@@ -13,9 +13,9 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Curosity Intech',
-  title: "Hi all, We're Curosity Intech",
+  title: 'Welcome to Curosity Intech',
   description:
-    "We take pride in turning our clients' visions into reality. With a passion for creativity and a dedication to excellence, we've crafted a diverse portfolio of client-based projects that span industries and objectives. Join us on a journey of transformation and discover how we can bring your ideas to life. Let's create something remarkable together!",
+    "Where Innovation Meets Implementation. We're a dynamic tech company dedicated to crafting extraordinary software solutions for businesses like yours. Join us on this exciting journey of innovation and let's build the future together!",
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
@@ -262,14 +262,12 @@ export const projects: ProjectType[] = [
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+    name: 'Rohit Kumar Gupta',
+    profilePic: '/img/icons/common/dev1.jpg',
   },
   {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+    name: 'Aditya Kumar',
+    profilePic: '/img/icons/common/dev2.jpg',
   },
 ];
 
@@ -278,19 +276,17 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
-  description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  title: 'Curiosity Intech',
+  description: 'Where Innovation Meets Implementation',
+  author: 'Curiosity Intech',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
-    'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Curiosity',
+    'Curiosity Intech',
+    'Tech Solutions',
+    'Custom Software',
+    'Client Projects',
+    'Tech Solutions Provider',
+    'Agile Development',
+    'Software Innovation',
   ],
 };
