@@ -77,6 +77,14 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Redux',
           iconifyTag: 'logos:redux',
         },
+        {
+          skillName: 'React Native',
+          iconifyTag: 'tabler:brand-react-native',
+        },
+        {
+          skillName: 'React Native',
+          iconifyTag: 'skill-icons:java-light',
+        },
       ],
     },
     {

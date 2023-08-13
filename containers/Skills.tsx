@@ -5,7 +5,7 @@ import { Col, Container, Row, UncontrolledTooltip } from 'reactstrap';
 import DisplayLottie from '../components/DisplayLottie';
 import { skillsSection } from '../portfolio';
 
-const Skills = (skillId: string) => {
+const Skills = () => {
   return (
     skillsSection && (
       <Container className="text-center my-5 section section-lg">
