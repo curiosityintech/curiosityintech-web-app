@@ -18,6 +18,7 @@ const Navigation = ({
   serviceId,
   projectId,
   contactId,
+  teamId,
   navigateToPage,
 }: NavigationType) => {
   const [collapseClasses, setCollapseClasses] = useState('');
@@ -74,7 +75,7 @@ const Navigation = ({
                 </Row>
               </div>
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                {socialLinks.facebook && (
+                {/* {socialLinks.facebook && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
@@ -137,7 +138,7 @@ const Navigation = ({
                       </span>
                     </NavLink>
                   </NavItem>
-                )}
+                )} */}
                 <button
                   onClick={() => navigateToPage(serviceId)}
                   style={{
@@ -172,6 +173,18 @@ const Navigation = ({
                 >
                   <h5 className="text-white" style={{ marginBottom: '0px' }}>
                     Contact Us
+                  </h5>
+                </button>
+                <button
+                  onClick={() => navigateToPage(teamId)}
+                  style={{
+                    backgroundColor: 'transparent',
+                    borderWidth: '0px',
+                    marginLeft: '30px',
+                  }}
+                >
+                  <h5 className="text-white" style={{ marginBottom: '0px' }}>
+                    Team
                   </h5>
                 </button>
               </Nav>

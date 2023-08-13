@@ -32,6 +32,7 @@ export default function Home() {
         serviceId={'services'}
         projectId={'projects'}
         contactId={'contact'}
+        teamId={'team'}
         navigateToPage={(type: string) => scrollToPage(type)}
       />
       <Greetings />
@@ -48,7 +49,9 @@ export default function Home() {
       <div id={'contact'}>
         <Contact />
       </div>
-      <GithubProfileCard />
+      <div id={'team'}>
+        <GithubProfileCard />
+      </div>
     </div>
   );
 }

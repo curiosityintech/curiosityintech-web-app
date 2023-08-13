@@ -26,6 +26,7 @@ export type NavigationType = {
   serviceId: string;
   projectId: string;
   contactId: string;
+  teamId: string;
 };
 // * SKILLS SECTION
 
