@@ -7,7 +7,7 @@ import GreetingLottie from '../components/DisplayLottie';
 const Proficiency = () => {
   return (
     SkillBars && (
-      <Container className="section section-lg">
+      <Container className="section" style={{ paddingTop: '1rem' }}>
         <Fade bottom duration={500}>
           <Row>
             <Col lg="6">

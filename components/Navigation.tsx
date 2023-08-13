@@ -48,6 +48,7 @@ const Navigation = ({
               className="navbar-toggler"
               aria-label="navbar_toggle"
               id="navbar_global"
+              style={{ display: 'none' }}
             >
               <span className="navbar-toggler-icon" />
             </button>
@@ -59,12 +60,10 @@ const Navigation = ({
               onExiting={onExiting}
               onExited={onExited}
             >
-              <div className="navbar-collapse-header">
+              {/* <div className="navbar-collapse-header">
                 <Row>
                   <Col className="collapse-brand" xs="6">
-                    <h3 className="text-black" id="nav-title">
-                      {greetings.name}
-                    </h3>
+                    <h3 className="text-black">{greetings.name}</h3>
                   </Col>
                   <Col className="collapse-close" xs="6">
                     <button className="navbar-toggler" id="navbar_global">
@@ -73,7 +72,7 @@ const Navigation = ({
                     </button>
                   </Col>
                 </Row>
-              </div>
+              </div> */}
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
                 {/* {socialLinks.facebook && (
                   <NavItem>
@@ -164,18 +163,6 @@ const Navigation = ({
                   </h5>
                 </button>
                 <button
-                  onClick={() => navigateToPage(contactId)}
-                  style={{
-                    backgroundColor: 'transparent',
-                    borderWidth: '0px',
-                    marginLeft: '30px',
-                  }}
-                >
-                  <h5 className="text-white" style={{ marginBottom: '0px' }}>
-                    Contact Us
-                  </h5>
-                </button>
-                <button
                   onClick={() => navigateToPage(teamId)}
                   style={{
                     backgroundColor: 'transparent',
@@ -185,6 +172,20 @@ const Navigation = ({
                 >
                   <h5 className="text-white" style={{ marginBottom: '0px' }}>
                     Team
+                  </h5>
+                </button>
+                <button
+                  onClick={() => navigateToPage(contactId)}
+                  style={{
+                    padding: '8px',
+                    borderRadius: '5px',
+                    backgroundColor: 'rgba(255,255,255, 1)',
+                    borderWidth: '0px',
+                    marginLeft: '30px',
+                  }}
+                >
+                  <h5 style={{ marginBottom: '0px', color: '#0071c5' }}>
+                    Hire Us
                   </h5>
                 </button>
               </Nav>

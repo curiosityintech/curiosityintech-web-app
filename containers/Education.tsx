@@ -11,7 +11,7 @@ const Education = () => {
           <div className="d-flex px-3">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                <i className="ni ni-books text-info" />
+                <i className="ni ni-laptop text-info" />
               </div>
             </div>
             <div className="pl-4">
