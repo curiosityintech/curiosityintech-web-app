@@ -29,6 +29,7 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/adityak16/',
   github: 'https://github.com/adityak16',
+  twitter: 'https://twitter.com/iamsrivastava1',
 };
 
 export const skillsSection: SkillsSectionType = {

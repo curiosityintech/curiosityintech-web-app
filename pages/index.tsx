@@ -20,7 +20,6 @@ export default function Home() {
   const scrollToPage = (type: string) => {
     const element = document.getElementById(type);
     if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
@@ -39,7 +38,7 @@ export default function Home() {
       <div id={'services'}>
         <Skills />
       </div>
-      <Proficiency />
+      {/* <Proficiency /> */}
       <div id={'projects'}>
         <Education />
       </div>

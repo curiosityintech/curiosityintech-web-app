@@ -41,11 +41,11 @@ const FeedbackCard = ({ name, profilePic }: FeedbackType) => {
         >
           {name}
         </h5>
-        <h5
+        {/* <h5
           style={{ color: '#fff', justifyContent: 'center', display: 'flex' }}
         >
           Co-founder
-        </h5>
+        </h5> */}
       </div>
     </div>
   );
