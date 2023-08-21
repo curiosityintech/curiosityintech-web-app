@@ -7,8 +7,8 @@ import { socialLinks } from '../portfolio';
 
 const GithubProfileCard = () => {
   return (
-    <Card className="section bg-gradient-info shadow-lg border-0">
-      <Container style={{ marginBottom: '100px' }}>
+    <Card className="section-sm bg-gradient-info shadow-lg border-0">
+      {/* <Container style={{ marginBottom: '100px' }}>
         <Container>
           <div className="d-flex p-4">
             <div>
@@ -36,254 +36,389 @@ const GithubProfileCard = () => {
             })}
           </Row>
         </Container>
-      </Container>
-      <Row
-        xs="3"
-        style={{
-          bottom: '60px',
-          position: 'absolute',
-          width: '100%',
-          marginBottom: '25px',
-          borderTopWidth: '1px',
-          borderTopColor: 'grey',
-        }}
-      >
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
+      </Container> */}
+      <Row xs="1" sm="2" md="4">
+        <Col
+          style={{
+            marginTop: '30px',
+            display: 'flex',
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
+            flexDirection: 'column',
+            paddingLeft: '40px',
+          }}
+        >
           <div
             style={{
-              marginTop: '20px',
               display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
+              justifyContent: 'flex-start',
+              color: '#fff',
+              fontFamily: 'sans-serif',
+              fontSize: '20px',
+              fontStyle: 'italic',
+              textDecorationLine: 'overline',
             }}
           >
-            <Icon color="#fff" icon={'bi:phone'} data-inline="false"></Icon>
-            <p
-              className="mt-0"
+            Connect
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexDirection: 'row',
+            }}
+          >
+            <div
               style={{
-                marginBottom: '0px',
-                marginLeft: '10px',
-                color: '#fff',
+                display: 'flex',
+                justifyContent: 'center',
               }}
             >
-              +919731079079
-            </p>
-          </div>
-        </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
-          <div
-            style={{
-              marginTop: '20px',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <Button
-              className="btn-icon-only rounded-circle ml-1"
-              color="twitter"
-              rel="noopener"
-              aria-label="Linkedin"
-              href={socialLinks.linkedin}
-              target="_blank"
-            >
-              <span className="btn-inner--icon">
-                <i className="fa fa-linkedin" />
-              </span>
-            </Button>
-          </div>
-        </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
-          <div
-            style={{
-              marginTop: '20px',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <Button
-              className="btn-icon-only rounded-circle ml-1"
-              color="github"
-              href={socialLinks.github}
-              rel="noopener"
-              aria-label="Github"
-              target="_blank"
-            >
-              <span className="btn-inner--icon">
-                <i className="fa fa-github" />
-              </span>
-            </Button>
-          </div>
-        </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
-          <div
-            style={{
-              marginTop: '20px',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <Button
-              className="btn-icon-only rounded-circle"
-              color="twitter"
-              href={socialLinks.twitter}
-              target="_blank"
-              rel="noopener"
-              aria-label="Twitter"
-            >
-              <span className="btn-inner--icon">
-                <i className="fa fa-twitter" />
-              </span>
-            </Button>
-          </div>
-        </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
-          <div
-            style={{
-              marginTop: '20px',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <Icon
-              color="#fff"
-              icon={'iconamoon:email-duotone'}
-              data-inline="false"
-            ></Icon>
-            <p
-              className="mt-0"
+              <div
+                style={{
+                  marginTop: '20px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                }}
+              >
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="twitter"
+                  rel="noopener"
+                  aria-label="Linkedin"
+                  href={socialLinks.linkedin}
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-linkedin" />
+                  </span>
+                </Button>
+              </div>
+            </div>
+            <div
               style={{
-                marginBottom: '0px',
-                marginLeft: '10px',
-                color: '#fff',
+                display: 'flex',
+                justifyContent: 'center',
+                paddingLeft: '20px',
               }}
             >
-              curiosityintech@gmail.com
-            </p>
-          </div>
-        </Col>
-      </Row>
-      <Row
-        xs="3"
-        style={{
-          bottom: '0',
-          position: 'absolute',
-          width: '100%',
-          marginBottom: '10px',
-          borderTop: '1px solid rgba(0, 0, 0, 0.05)',
-        }}
-      >
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
-          <div
-            style={{
-              marginTop: '20px',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <Icon color="#fff" icon={'ion:location'} data-inline="false"></Icon>
-            <p
-              className="mt-0"
+              <div
+                style={{
+                  marginTop: '20px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                }}
+              >
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="github"
+                  href={socialLinks.github}
+                  rel="noopener"
+                  aria-label="Github"
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-github" />
+                  </span>
+                </Button>
+              </div>
+            </div>
+            <div
               style={{
-                marginBottom: '0px',
-                marginLeft: '10px',
-                color: '#fff',
+                display: 'flex',
+                justifyContent: 'center',
+                paddingLeft: '20px',
               }}
             >
-              Bangalore, India
-            </p>
+              <div
+                style={{
+                  marginTop: '20px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                }}
+              >
+                <Button
+                  className="btn-icon-only rounded-circle"
+                  color="twitter"
+                  href={socialLinks.twitter}
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Twitter"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-twitter" />
+                  </span>
+                </Button>
+              </div>
+            </div>
           </div>
         </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
+        <Col
+          style={{
+            marginTop: '30px',
+            paddingLeft: '40px',
+            display: 'flex',
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
+            flexDirection: 'column',
+          }}
+        >
           <div
             style={{
-              marginTop: '20px',
               display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
+              justifyContent: 'flex-start',
+              color: '#fff',
+              fontFamily: 'sans-serif',
+              fontSize: '20px',
+              fontStyle: 'italic',
+              textDecorationLine: 'overline',
             }}
           >
-            <Icon color="#fff" icon={'ion:location'} data-inline="false"></Icon>
-            <p
-              className="mt-0"
-              style={{
-                marginBottom: '0px',
-                marginLeft: '10px',
-                color: '#fff',
-              }}
-            >
-              Hyderabad, India
-            </p>
+            Contact
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'flex-start',
+              justifyContent: 'flex-start',
+              flexDirection: 'column',
+            }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <div
+                style={{
+                  marginTop: '20px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                }}
+              >
+                <Icon color="#fff" icon={'bi:phone'} data-inline="false"></Icon>
+                <p
+                  className="mt-0"
+                  style={{
+                    marginBottom: '0px',
+                    marginLeft: '10px',
+                    color: '#fff',
+                  }}
+                >
+                  +919731079079
+                </p>
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <div
+                style={{
+                  marginTop: '20px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                }}
+              >
+                <Icon
+                  color="#fff"
+                  icon={'iconamoon:email-duotone'}
+                  data-inline="false"
+                ></Icon>
+                <p
+                  className="mt-0"
+                  style={{
+                    marginBottom: '0px',
+                    marginLeft: '10px',
+                    color: '#fff',
+                  }}
+                >
+                  curiosityintech@gmail.com
+                </p>
+              </div>
+            </div>
           </div>
         </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
+        <Col
+          style={{
+            marginTop: '30px',
+            paddingLeft: '40px',
+            display: 'flex',
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
+            flexDirection: 'column',
+          }}
+        >
           <div
             style={{
-              marginTop: '20px',
               display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
+              justifyContent: 'flex-start',
+              color: '#fff',
+              fontFamily: 'sans-serif',
+              fontSize: '20px',
+              fontStyle: 'italic',
+              textDecorationLine: 'overline',
             }}
           >
-            <Icon color="#fff" icon={'ion:location'} data-inline="false"></Icon>
-            <p
-              className="mt-0"
-              style={{
-                marginBottom: '0px',
-                marginLeft: '10px',
-                color: '#fff',
-              }}
-            >
-              Kolkata, India
-            </p>
+            Locations
           </div>
-        </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
           <div
             style={{
-              marginTop: '20px',
               display: 'flex',
+              alignItems: 'flex-start',
+              justifyContent: 'flex-start',
               flexDirection: 'row',
-              alignItems: 'center',
             }}
           >
-            <Icon color="#fff" icon={'ion:location'} data-inline="false"></Icon>
-            <p
-              className="mt-0"
+            <div
               style={{
-                marginBottom: '0px',
-                marginLeft: '10px',
-                color: '#fff',
+                display: 'flex',
+                alignItems: 'flex-start',
+                justifyContent: 'flex-start',
+                flexDirection: 'column',
               }}
             >
-              Seattle, USA
-            </p>
-          </div>
-        </Col>
-        <Col style={{ display: 'flex', justifyContent: 'center' }}>
-          <div
-            style={{
-              marginTop: '20px',
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <Icon color="#fff" icon={'ion:location'} data-inline="false"></Icon>
-            <p
-              className="mt-0"
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div
+                  style={{
+                    marginTop: '20px',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                  }}
+                >
+                  <Icon
+                    color="#fff"
+                    icon={'ion:location'}
+                    data-inline="false"
+                  ></Icon>
+                  <p
+                    className="mt-0"
+                    style={{
+                      marginBottom: '0px',
+                      marginLeft: '10px',
+                      color: '#fff',
+                    }}
+                  >
+                    Bangalore, India
+                  </p>
+                </div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div
+                  style={{
+                    marginTop: '20px',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                  }}
+                >
+                  <Icon
+                    color="#fff"
+                    icon={'ion:location'}
+                    data-inline="false"
+                  ></Icon>
+                  <p
+                    className="mt-0"
+                    style={{
+                      marginBottom: '0px',
+                      marginLeft: '10px',
+                      color: '#fff',
+                    }}
+                  >
+                    Hyderabad, India
+                  </p>
+                </div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div
+                  style={{
+                    marginTop: '20px',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                  }}
+                >
+                  <Icon
+                    color="#fff"
+                    icon={'ion:location'}
+                    data-inline="false"
+                  ></Icon>
+                  <p
+                    className="mt-0"
+                    style={{
+                      marginBottom: '0px',
+                      marginLeft: '10px',
+                      color: '#fff',
+                    }}
+                  >
+                    Kolkata, India
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
               style={{
-                marginBottom: '0px',
-                marginLeft: '10px',
-                color: '#fff',
+                display: 'flex',
+                alignItems: 'flex-start',
+                justifyContent: 'flex-start',
+                flexDirection: 'column',
+                marginLeft: '20px',
               }}
             >
-              Toronto, Canada
-            </p>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div
+                  style={{
+                    marginTop: '20px',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                  }}
+                >
+                  <Icon
+                    color="#fff"
+                    icon={'ion:location'}
+                    data-inline="false"
+                  ></Icon>
+                  <p
+                    className="mt-0"
+                    style={{
+                      marginBottom: '0px',
+                      marginLeft: '10px',
+                      color: '#fff',
+                    }}
+                  >
+                    Seattle, USA
+                  </p>
+                </div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div
+                  style={{
+                    marginTop: '20px',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                  }}
+                >
+                  <Icon
+                    color="#fff"
+                    icon={'ion:location'}
+                    data-inline="false"
+                  ></Icon>
+                  <p
+                    className="mt-0"
+                    style={{
+                      marginBottom: '0px',
+                      marginLeft: '10px',
+                      color: '#fff',
+                    }}
+                  >
+                    Toronto, Canada
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </Col>
       </Row>
