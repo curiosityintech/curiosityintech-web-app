@@ -88,7 +88,6 @@ const GithubProfileCard = () => {
                   color="twitter"
                   rel="noopener"
                   aria-label="Linkedin"
-                  href={socialLinks.linkedin}
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
@@ -115,7 +114,6 @@ const GithubProfileCard = () => {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href={socialLinks.github}
                   rel="noopener"
                   aria-label="Github"
                   target="_blank"
@@ -144,7 +142,6 @@ const GithubProfileCard = () => {
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href={socialLinks.twitter}
                   target="_blank"
                   rel="noopener"
                   aria-label="Twitter"
@@ -212,7 +209,7 @@ const GithubProfileCard = () => {
                     color: '#fff',
                   }}
                 >
-                  +919731079079
+                  +919932670114
                 </p>
               </div>
             </div>
