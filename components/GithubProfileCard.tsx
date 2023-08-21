@@ -165,6 +165,7 @@ const GithubProfileCard = () => {
             alignItems: 'flex-start',
             justifyContent: 'flex-start',
             flexDirection: 'column',
+            cursor: 'default',
           }}
         >
           <div
@@ -188,7 +189,12 @@ const GithubProfileCard = () => {
               flexDirection: 'column',
             }}
           >
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
               <div
                 style={{
                   marginTop: '20px',
@@ -211,7 +217,12 @@ const GithubProfileCard = () => {
               </div>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
               <div
                 style={{
                   marginTop: '20px',
@@ -247,6 +258,7 @@ const GithubProfileCard = () => {
             alignItems: 'flex-start',
             justifyContent: 'flex-start',
             flexDirection: 'column',
+            cursor: 'default',
           }}
         >
           <div

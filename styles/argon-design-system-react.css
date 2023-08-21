@@ -18149,7 +18149,10 @@ textarea[resize="horizontal"] {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
-
+.section-custom {
+	padding-top: 5rem;
+	padding-bottom: 3rem !important;
+}
 @media (min-width: 768px) {
 	.section-hero {
 		min-height: 500px;
