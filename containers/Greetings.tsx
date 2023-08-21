@@ -35,7 +35,7 @@ const Greetings = () => {
                   <p className="lead text-white">{greetings.description}</p>
                   {/* <SocialLinks /> */}
                 </Col>
-                <Col lg="6">
+                <Col lg="6" style={{ height: '490px', width: '490px' }}>
                   <GreetingLottie animationPath="/lottie/coding.json" />
                 </Col>
               </Row>
