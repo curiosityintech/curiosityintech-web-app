@@ -6,7 +6,7 @@ import FeedbackCard from '../components/FeedbackCard';
 const Feedbacks = () => {
   return (
     feedbacks && (
-      <section className="section section-lg">
+      <section className="section section-lg bg-gradient-info">
         <Container>
           <div className="d-flex p-4">
             <div>

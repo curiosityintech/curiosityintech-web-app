@@ -12,8 +12,8 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Curosity Intech',
-  title: 'Welcome to Curosity Intech',
+  name: 'Curosity CodeX',
+  title: 'Welcome to Curosity CodeX',
   description:
     "Where Innovation Meets Implementation. We're a dynamic tech company dedicated to crafting extraordinary software solutions for businesses like yours. Join us on this exciting journey of innovation and let's build the future together!",
   resumeLink:
@@ -277,12 +277,12 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Curiosity Intech',
+  title: 'Curiosity Labs',
   description: 'Where Innovation Meets Implementation',
-  author: 'Curiosity Intech',
+  author: 'Curiosity Labs',
   keywords: [
     'Curiosity',
-    'Curiosity Intech',
+    'Curiosity Labs',
     'Tech Solutions',
     'Custom Software',
     'Client Projects',

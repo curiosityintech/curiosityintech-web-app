@@ -42,7 +42,7 @@ const GithubProfileCard = () => {
           style={{
             marginTop: '30px',
             display: 'flex',
-            alignItems: 'flex-start',
+            alignItems: 'center',
             justifyContent: 'flex-start',
             flexDirection: 'column',
             paddingLeft: '40px',
@@ -159,7 +159,7 @@ const GithubProfileCard = () => {
             marginTop: '30px',
             paddingLeft: '40px',
             display: 'flex',
-            alignItems: 'flex-start',
+            alignItems: 'center',
             justifyContent: 'flex-start',
             flexDirection: 'column',
             cursor: 'default',
@@ -252,7 +252,7 @@ const GithubProfileCard = () => {
             marginTop: '30px',
             paddingLeft: '40px',
             display: 'flex',
-            alignItems: 'flex-start',
+            alignItems: 'center',
             justifyContent: 'flex-start',
             flexDirection: 'column',
             cursor: 'default',
@@ -313,7 +313,7 @@ const GithubProfileCard = () => {
                   </p>
                 </div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'center' }}>
+              {/* <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <div
                   style={{
                     marginTop: '20px',
@@ -338,8 +338,8 @@ const GithubProfileCard = () => {
                     Hyderabad, India
                   </p>
                 </div>
-              </div>
-              <div style={{ display: 'flex', justifyContent: 'center' }}>
+              </div> */}
+              {/* <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <div
                   style={{
                     marginTop: '20px',
@@ -364,9 +364,9 @@ const GithubProfileCard = () => {
                     Kolkata, India
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <div
+            {/* <div
               style={{
                 display: 'flex',
                 alignItems: 'flex-start',
@@ -427,7 +427,7 @@ const GithubProfileCard = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </Col>
       </Row>
