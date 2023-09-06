@@ -241,7 +241,7 @@ const GithubProfileCard = () => {
                     color: '#fff',
                   }}
                 >
-                  curiosityintech@gmail.com
+                  help@curiositynextech
                 </p>
               </div>
             </div>
