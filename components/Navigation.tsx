@@ -162,7 +162,7 @@ const Navigation = ({
                     Projects
                   </h5>
                 </button>
-                <button
+                {/* <button
                   onClick={() => navigateToPage(teamId)}
                   style={{
                     backgroundColor: 'transparent',
@@ -173,7 +173,7 @@ const Navigation = ({
                   <h5 className="text-white" style={{ marginBottom: '0px' }}>
                     Team
                   </h5>
-                </button>
+                </button> */}
                 <button
                   onClick={() => navigateToPage(contactId)}
                   style={{
